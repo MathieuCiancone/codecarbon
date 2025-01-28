@@ -998,6 +998,7 @@ def track_emissions(
                     save_to_logger=save_to_logger,
                     save_to_prometheus=save_to_prometheus,
                     save_to_logfire=save_to_logfire,
+                    experiment_id=experiment_id,
                     prometheus_url=prometheus_url,
                     output_handlers=output_handlers,
                     logging_logger=logging_logger,
